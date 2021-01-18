@@ -9,7 +9,9 @@ pipx install cookiecutter
 
 After cloning the coding-standards repo, run
 ```
-cookiecutter /c/Users/johndoe/GitHub/coding-standards/cookiecutters/package/
+cookiecutter /c/Users/johndoe/GitHub/coding-standards/cookiecutters/pipenv/
+# or
+cookiecutter /c/Users/johndoe/GitHub/coding-standards/cookiecutters/poetry/
 # or
 cookiecutter /c/Users/johndoe/GitHub/coding-standards/cookiecutters/django/
 ```
