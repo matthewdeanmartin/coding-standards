@@ -1,0 +1,6 @@
+{
+    "project_name": "Python Boilerplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Minimal code to start a pyton project.",
+    "version": "0.1.0"
+}

@@ -18,10 +18,6 @@ isort . && black . && bandit . && flake8 && pre-commit run --all-files
 # or run tools via pre-commit
 pre-commit run --all-files
 ```
-Alternative, use Makefile
-```
-make check
-```
 
 
 

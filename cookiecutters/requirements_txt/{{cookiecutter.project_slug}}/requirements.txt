@@ -1,0 +1,12 @@
+black==20.8b1
+isort
+flake8
+flake8-assertive
+flake8-builtins
+flake8-comprehensions
+flake8-logging-format
+flake8-bugbear
+flake8-eradicate
+bandit
+pytest==6.0.1
+pytest-cov>=2.10.1
