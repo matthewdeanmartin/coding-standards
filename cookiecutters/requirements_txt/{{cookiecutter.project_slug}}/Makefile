@@ -11,10 +11,10 @@ else
     VENV :=
 endif
 
-Pipfile.lock: Pipfile
-	@echo "Installing dependencies"
-	@pipenv install --dev
-
+requirement_txt: requirement_txt:
+	python -m venv venv
+	. venv/activate
+	pip install -r requirements.txt
 
 clean-pyc:
 	@echo "Removing compiled files"
@@ -103,4 +103,4 @@ deploy_pipenv: clean
 	@echo If you are using setup.py or poetry or flit for packaging, you don't need pipenv sync.
 	pipenv sync
 
-check: pytest flake8 bandit pre-commit
+check: requirement_txt pytest flake8 bandit pre-commit

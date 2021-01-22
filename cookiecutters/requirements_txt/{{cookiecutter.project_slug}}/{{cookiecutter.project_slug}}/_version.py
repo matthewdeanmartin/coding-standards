@@ -4,4 +4,4 @@ number is in a separate file from __init__.py
 
 There are many ways to track versions in python (pyproject.toml, setup.py, etc)
 """
-__version__ = "0.1.0"
+__version__ = "{{cookiecutter.version}}"

@@ -15,6 +15,10 @@ Pipfile.lock: Pipfile
 	@echo "Installing dependencies"
 	@pipenv install --dev
 
+requirement_txt: requirement_txt:
+	python -m venv venv
+	. venv/activate
+	pip install -r requirements.txt
 
 clean-pyc:
 	@echo "Removing compiled files"
